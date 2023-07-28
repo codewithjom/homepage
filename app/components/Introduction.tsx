@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <div>
       <div className='flex justify-center mt-24 mb-12'>
-        <Image src='/profile.png' alt='Jom Dollesin' height={120} width={120} className='rounded-full scale-150' />
+        <Image src={'/profile.png'} alt='Jom Dollesin' width={100} height={100} className='rounded-full' />
       </div>
       <h1 className='text-center text-2xl font-bold my-5'>Hey, I'm Jom.</h1>
       <div className='text-center space-y-5'>
