@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function Introduction() {
   return (
     <div>
-      <div className='flex justify-center mt-24 mb-12'>
-        <Image src={'/profile.png'} alt='Jom Dollesin' width={100} height={100} className='rounded-full' />
+      <div className='flex justify-center mt-16 mb-12'>
+        <Image src={'/profile.jpg'} alt='Jom Dollesin' width={160} height={160} className='rounded-full' />
       </div>
       <h1 className='text-center text-2xl font-bold my-5'>Hey, I'm Jom.</h1>
       <div className='text-center space-y-5'>
