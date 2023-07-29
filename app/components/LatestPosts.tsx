@@ -4,8 +4,8 @@ import posts from './data/posts'
 export default function LatestPost() {
   return (
     <div>
-      <div>
-        <h1 className='text-center text-2xl font-bold my-10'>Latest posts</h1>
+      <div className='lg:flex-1 lg:justify-center lg:items-center lg:max-w-3xl lg:mx-auto'>
+        <h1 className='text-center text-2xl font-bold my-10 lg:mt-32 lg:text-start'>Latest posts</h1>
         <div>
           <ul className='space-y-4'>
             {posts.map(item => (

@@ -3,6 +3,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false)
@@ -14,7 +17,7 @@ export default function NavBar() {
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
               {/* LOGO */}
               <Link href='/'>
-                <h2 className='text-2xl text-cyan-600 font-bold '>Codewithjom</h2>
+                <h2 className={`text-2xl text-cyan-600 font-bold ${montserrat.className}`}>Jom Dollesin</h2>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className='md:hidden'>
@@ -55,7 +58,7 @@ export default function NavBar() {
                   </Link>
                 </li>
                 <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                  <Link href='#uses' onClick={() => setNavbar(!navbar)}>
+                  <Link href='/uses' onClick={() => setNavbar(!navbar)}>
                     Uses
                   </Link>
                 </li>
@@ -80,7 +83,7 @@ export default function NavBar() {
               <li>
                 <Link
                   href='#'
-                  className='text-[#CDD6F4] px-8 py-4 border border-[#FAB387] rounded-lg hover:bg-[#fab38755]'
+                  className='text-[#CDD6F4] px-8 py-4 border border-[#CDD6F4] rounded-lg hover:bg-[#cdd6f433]'
                 >
                   Resume
                 </Link>
