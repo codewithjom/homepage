@@ -68,7 +68,7 @@ export default function NavBar() {
                   </Link>
                 </li>
                 <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                  <Link href='#contact' onClick={() => setNavbar(!navbar)}>
+                  <Link href='/contact' onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>

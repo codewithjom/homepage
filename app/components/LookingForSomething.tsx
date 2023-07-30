@@ -26,7 +26,7 @@ export default function LookingForSomethign() {
           </li>
           <li>
             ✉️ Looking to make contact? Don't hesitate to{' '}
-            <Link href='#' className='text-[#FAB387] font-bold'>
+            <Link href='/contact' className='text-[#FAB387] font-bold'>
               contact{' '}
             </Link>
             me.
