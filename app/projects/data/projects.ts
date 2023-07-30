@@ -13,6 +13,6 @@ export default [
     description:
       "Welcome to my digital world! This is the virtual showcase of all things that describe me - my passions, creations, and endeavors. I invite you to explore my homepage and find the essence of who I am through my work. Let's start on this creative journey together!",
     imgURL: '/homepage.png',
-    link: 'https://homepage-cwd.vercel.app/'
+    link: 'https://codewithjom.vercel.app/'
   }
 ]
