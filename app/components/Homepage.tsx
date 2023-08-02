@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion'
 import Introduction from './Introduction'
 import LookingForSomethign from './LookingForSomething'
-import LatestPost from './LatestPosts'
 import Footer from './Footer'
+import Timeline from './Timeline'
 
 export default function Homepage() {
   return (
@@ -13,7 +13,7 @@ export default function Homepage() {
         <div className='mx-5'>
           <Introduction />
           <LookingForSomethign />
-          <LatestPost />
+          <Timeline />
           <Footer />
         </div>
       </div>
