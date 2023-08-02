@@ -55,18 +55,13 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                    <Link href='#blogs' onClick={() => setNavbar(!navbar)}>
-                      Blog
+                    <Link href='/books' onClick={() => setNavbar(!navbar)}>
+                      Books
                     </Link>
                   </li>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
                     <Link href='/uses' onClick={() => setNavbar(!navbar)}>
                       Uses
-                    </Link>
-                  </li>
-                  <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                    <Link href='#links' onClick={() => setNavbar(!navbar)}>
-                      Links
                     </Link>
                   </li>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
@@ -80,7 +75,9 @@ export default function NavBar() {
             <div className='hidden md:block'>
               <ul className='flex space-x-8'>
                 <li>
-                  <Image src='/github.svg' alt='github logo' width={30} height={30} />
+                  <Link href='https://github.com/codewithjom' target='_blank'>
+                    <Image src='/github.svg' alt='github logo' width={30} height={30} />
+                  </Link>
                 </li>
                 <li>
                   <Link
