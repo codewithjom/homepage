@@ -1,22 +1,14 @@
 export default [
   {
     id: '1',
-    image: '/atomic-habits.jpeg',
-    status: 'Done'
+    image: '/atomic-habits.jpg'
   },
   {
     id: '2',
-    image: '/ephesians.jpg',
-    status: 'Reading'
+    image: '/ephesians.jpg'
   },
   {
     id: '3',
-    image: '/thesubtleartofnotgivingafuck.jpg',
-    status: 'Reading'
-  },
-  {
-    id: '4',
-    image: '/everythingisfucked.png',
-    status: 'Up next'
+    image: '/confrontation.jpg'
   }
 ]
