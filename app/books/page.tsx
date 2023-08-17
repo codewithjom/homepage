@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Montserrat } from 'next/font/google'
 import ReadBooks from './components/ReadBooks'
 import Footer from '../components/Footer'
+import Notes from './components/Notes'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -11,7 +12,7 @@ export default function Books() {
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
       <div className='mx-5 text-[#CDD6F4]'>
-        <div className='my-16 lg:max-w-3xl lg:mx-auto'>
+        <div className='my-10 lg:max-w-3xl lg:mx-auto'>
           <h1 className={`font-bold text-2xl ${montserrat.className}`}>Books</h1>
           <p className='mt-10'>
             In the huge world of writing, I'm drawn to a wide range of genres that challenge and expand my mind. My
@@ -21,6 +22,7 @@ export default function Books() {
         </div>
         <div>
           <ReadBooks />
+          <Notes />
           <Footer />
         </div>
       </div>
