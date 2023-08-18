@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import AtomicHabits from '../../contents/atomichabits.mdx'
+import Footer from '@/app/components/Footer'
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
             <AtomicHabits />
           </article>
         </div>
+        <Footer />
       </div>
     </motion.div>
   )
