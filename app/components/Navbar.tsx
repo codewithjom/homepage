@@ -50,6 +50,11 @@ export default function NavBar() {
               >
                 <ul className='h-screen md:h-auto text-[#CDD6F4] items-center justify-center md:flex text-2xl lg:text-base'>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
+                    <Link href='/blogs' onClick={() => setNavbar(!navbar)}>
+                      Blogs
+                    </Link>
+                  </li>
+                  <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
                     <Link href='/projects' onClick={() => setNavbar(!navbar)}>
                       Projects
                     </Link>

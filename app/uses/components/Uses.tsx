@@ -6,7 +6,7 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export default function Uses() {
   return (
     <div>
-      <div className='mt-16'>
+      <div className='my-10'>
         <div className='lg:max-w-3xl lg:mx-auto'>
           <h1 className={`text-2xl font-bold ${montserrat.className}`}>Uses</h1>
           <p className='italic mt-4 text-[#7F849C]'>Last updated July 29, 2023</p>

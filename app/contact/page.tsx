@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
       <div className='mx-5 text-[#CDD6F4]'>
-        <div className='container my-24 mx-auto md:px-6'>
+        <div className='container my-10 mx-auto md:px-6'>
           <section className='mb-32'>
             <div className='flex flex-wrap'>
               <div className='mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6'>
