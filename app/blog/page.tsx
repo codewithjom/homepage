@@ -32,8 +32,8 @@ export default function Blogs() {
             <div className='mt-4'>
               <ul className='list-disc mx-10'>
                 <li>
-                  <Link href='#' className='text-[#FAB387]'>
-                    Why you should read Atomic Habits by James Clear
+                  <Link href='/blog/atomic-habits' className='text-[#FAB387]'>
+                    Why you should read Atomic Habits
                   </Link>
                 </li>
               </ul>
