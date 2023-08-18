@@ -1,4 +1,4 @@
-👋 Hello, World! I'm [Your Name], a web developer on a mission to turn lines of code into seamless online experiences.
+👋 Hello, World! I'm Jom Dollesin, a web developer on a mission to turn lines of code into seamless online experiences.
 
 🚀 With a passion for clean code and user-centric design, I specialize in building dynamic and visually appealing websites that leave a lasting impression.
 
