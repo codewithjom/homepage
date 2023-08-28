@@ -12,11 +12,21 @@ export default [
   {
     id: '3',
     image: '/thesubtleartofnotgivingafuck.jpg',
-    status: 'Reading'
+    status: 'Done'
   },
   {
     id: '4',
     image: '/everythingisfucked.png',
-    status: 'Up next'
+    status: 'Reading'
+  },
+  {
+    id: '5',
+    image: '/the-great-controversy-2023-new-cover.jpg',
+    status: 'Next'
+  },
+  {
+    id: '6',
+    image: '/the-desire-of-ages.jpg',
+    status: 'Next'
   }
 ]

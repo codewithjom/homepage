@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Montserrat } from 'next/font/google'
-import ReadBooks from './components/ReadBooks'
+import Book from './components/Book'
 import Footer from '../components/Footer'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -20,7 +20,7 @@ export default function Books() {
           </p>
         </div>
         <div>
-          <ReadBooks />
+          <Book />
           <Footer />
         </div>
       </div>
