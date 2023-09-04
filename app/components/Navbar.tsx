@@ -60,11 +60,6 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                    <Link href='/books' onClick={() => setNavbar(!navbar)}>
-                      Books
-                    </Link>
-                  </li>
-                  <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
                     <Link href='/uses' onClick={() => setNavbar(!navbar)}>
                       Uses
                     </Link>

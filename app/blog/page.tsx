@@ -36,6 +36,11 @@ export default function Blogs() {
                     Why you should read Atomic Habits
                   </Link>
                 </li>
+                <li>
+                  <Link href='/blog/the-subtle' className='text-[#FAB387]'>
+                    Making the most of life by not caring a f*ck
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
