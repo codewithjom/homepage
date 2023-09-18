@@ -14,11 +14,14 @@ export default function Blogs() {
         <div className='mx-5 my-10 lg:max-w-3xl lg:mx-auto text-[#CDD6F4]'>
           <h1 className={`text-2xl font-bold ${montserrat.className}`}>Blogs</h1>
           <p className='mt-10'>
-            Please enjoy my many posts, where I use words as portals into the worlds of (a) Non-Fiction, (b) Spiritual
-            Reflections, and (c) Technological Insights. By sharing my thoughts online, I hope to help others better
-            understand the world around them, both in its material and immaterial elements. Come with me as we probe the
-            unknown, ponder the spiritual glue that unites us, and untangle the knots of a technological world in
-            constant flux.
+            Here you'll find links to the best pieces I've written about habits, productivity, and spirituality. Rather
+            than keeping my thoughts to myself, I wanted to hear what others had to say about the topics I covered,
+            which is what inspired me to start writing pieces like this.
+          </p>
+          <p className='mt-10'>
+            My favorite novels and other reading recommendations are just a couple of the engaging topics you'll find
+            here. My reading has provided the inspiration for the majority of the themes. Is it time to jump in? Use the
+            categories below to peruse my finest works.
           </p>
           <div className='mt-10'>
             <h1 className={`text-xl font-bold ${montserrat.className}`}>Habits</h1>
@@ -37,14 +40,8 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          {/** Sermon **/}
           <div className='mt-10'>
-            <div>
-              <h1 className={`text-xl font-bold ${montserrat.className}`}>Sermon</h1>
-              <p className='mt-4'>
-                My own personal sermon, including passages taken mostly from the Holy Bible is included here.
-              </p>
-            </div>
+            <h1 className={`text-xl font-bold ${montserrat.className}`}>Sermon</h1>
             <div className='mt-4'>
               <ul className='list-disc mx-10'>
                 <li>
