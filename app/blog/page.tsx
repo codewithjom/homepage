@@ -20,20 +20,13 @@ export default function Blogs() {
             unknown, ponder the spiritual glue that unites us, and untangle the knots of a technological world in
             constant flux.
           </p>
-          {/** Books **/}
           <div className='mt-10'>
-            <div>
-              <h1 className={`text-xl font-bold ${montserrat.className}`}>Books</h1>
-              <p className='mt-4'>
-                The majority of these articles are composed of my reflections or my analysis of the aforementioned
-                books.
-              </p>
-            </div>
+            <h1 className={`text-xl font-bold ${montserrat.className}`}>Habits</h1>
             <div className='mt-4'>
               <ul className='list-disc mx-10'>
                 <li>
                   <Link href='/blog/atomic-habits' className='text-[#FAB387]'>
-                    Why you should read Atomic Habits
+                    The Atomic Habits: Why You Need to Read It
                   </Link>
                 </li>
                 <li>
