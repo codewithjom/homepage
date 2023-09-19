@@ -81,7 +81,7 @@ export default function NavBar() {
                 </li>
                 <li>
                   <Link
-                    href='#'
+                    href='https://drive.google.com/file/d/1uF_FfMuugDIMknUgVRDCvCgUqVuu4_5F/view?usp=sharing'
                     className='text-[#CDD6F4] px-8 py-4 border border-[#CDD6F4] rounded-lg hover:bg-[#cdd6f433]'
                   >
                     Resume
