@@ -24,7 +24,7 @@ export default function NavBar() {
                 {/* HAMBURGER BUTTON FOR MOBILE */}
                 <div className='md:hidden'>
                   <button
-                    className='p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border'
+                    className='p-2 text-gray-700 outline-none rounded-md focus:border-gray-400 focus:border'
                     onClick={() => setNavbar(!navbar)}
                   >
                     {navbar ? (
@@ -49,6 +49,11 @@ export default function NavBar() {
                 }`}
               >
                 <ul className='h-screen md:h-auto text-[#CDD6F4] items-center justify-center md:flex text-2xl lg:text-base'>
+                  <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
+                    <Link href='' onClick={() => setNavbar(!navbar)}>
+                      Book notes
+                    </Link>
+                  </li>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
                     <Link href='/blog' onClick={() => setNavbar(!navbar)}>
                       Blog
