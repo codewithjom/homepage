@@ -50,7 +50,7 @@ export default function NavBar() {
               >
                 <ul className='h-screen md:h-auto text-[#CDD6F4] items-center justify-center md:flex text-2xl lg:text-base'>
                   <li className='py-2 px-6 text-center underline md:hover:text-[#FAB387] md:hover:bg-transparent'>
-                    <Link href='' onClick={() => setNavbar(!navbar)}>
+                    <Link href='https://booknotes-cwj.vercel.app/' onClick={() => setNavbar(!navbar)}>
                       Book notes
                     </Link>
                   </li>
